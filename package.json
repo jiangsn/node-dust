@@ -1,0 +1,33 @@
+{
+  "name": "node-dust",
+  "version": "0.1.1",
+  "description": "A Node.js wrapper for the bootandy/dust binary.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "postinstall": "node ./scripts/install.js"
+  },
+  "files": [
+    "dist",
+    "scripts"
+  ],
+  "keywords": [
+    "dust",
+    "disk",
+    "usage"
+  ],
+  "author": "jiangsn",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "tar": "^7.1.0",
+    "unzipper": "^0.11.6"
+  }
+}
