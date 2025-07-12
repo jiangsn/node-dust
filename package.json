@@ -2,6 +2,10 @@
   "name": "node-dust",
   "version": "0.1.1",
   "description": "A Node.js wrapper for the bootandy/dust binary.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangsn/node-dust.git"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
